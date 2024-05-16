@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
-</script>
-</head>
-<body>
-<h2>Demo JavaScript in Head</h2>
+  <head>
+    <script>
 
-<p id="demo">A Paragraph</p>
-<button type="button" onclick="myFunction()">Try it</button>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Changed Paragraph.";
+      }
 
-</body>
+    </script>
+  </head>
+
+  <body>
+    <h2>Demo JavaScript in Head</h2>
+
+    <p>In this example, a JavaScript function is placed in the &lt;head&gt; section of an HTML page.</p>
+    <p>The function is invoked (called) when a button is clicked:</p>
+    <br>
+
+    <p id="demo">Original Paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+
+  </body>
 </html>

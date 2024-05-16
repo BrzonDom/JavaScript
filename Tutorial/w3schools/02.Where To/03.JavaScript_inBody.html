@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <body>
 
-<h2>Demo JavaScript in Body</h2>
+    <h2>Demo JavaScript in Body</h2>
 
-<p id="demo">A Paragraph.</p>
+    <p>In this example, a JavaScript function is placed in the &lt;body&gt; section of an HTML page.</p>
+    <p>The function is invoked (called) when a button is clicked:</p>
+    <br>
 
-<button type="button" onclick="myFunction()">Try it</button>
+    <p id="demo">Original Paragraph</p>
 
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
-</script>
+    <button type="button" onclick="myFunction()">Try it</button>
 
-</body>
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Changed Paragraph.";
+        }
+    </script>
+
+  </body>
 </html>
